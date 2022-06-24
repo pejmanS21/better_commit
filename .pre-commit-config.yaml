@@ -8,6 +8,7 @@ repos:
       - id: check-added-large-files
       - id: check-toml
       - id: pretty-format-json
+      - id: name-tests-test
         exclude: "(^.vscode/|dicom_converter/_version.py)"
 
   - repo: https://github.com/asottile/seed-isort-config
@@ -22,8 +23,10 @@ repos:
     rev: 22.3.0
     hooks:
       - id: black
-
-
+  - repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v1.6.0  # Use the sha / tag you want to point at
+    hooks:
+      - id: autopep8
 #repos:
 #-   repo: https://github.com/pre-commit/pre-commit-hooks
 #    rev: v4.3.0
