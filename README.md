@@ -19,3 +19,8 @@ check for added large files..............................................Passed
 seed isort known_third_party.............................................Passed
 ```
 <hr>
+automatically find and install setup.cfg or setup.py
+
+```bash
+pip install -e .
+```
