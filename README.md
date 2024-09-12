@@ -24,3 +24,5 @@ automatically find and install setup.cfg or setup.py
 ```bash
 pip install -e .
 ```
+
+<hr>
